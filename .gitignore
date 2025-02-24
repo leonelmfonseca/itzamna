@@ -94,19 +94,19 @@ $RECYCLE.BIN/
 
 ### Docker ###
 # Ignore Docker Compose files (if not version-controlled)
-docker-compose.override.yml
-docker-compose.prod.yml
+# docker-compose.override.yml
+# docker-compose.prod.yml
 
 # Ignore Docker build artifacts
-**/docker-compose*.yml
-**/Dockerfile
-**/.dockerignore
+# **/docker-compose*.yml
+# **/Dockerfile
+# **/.dockerignore
 
 ### Kubernetes ###
 # Ignore Kubernetes configuration files (if not version-controlled)
 *.kubeconfig
-*.yaml
-*.yml
+# *.yaml
+# *.yml
 
 ### Angular ###
 # Ignore Angular build artifacts
